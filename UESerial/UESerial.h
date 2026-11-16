@@ -2,6 +2,7 @@
 | File Name: UESerial.h
 | Programmer: Jacob Larson Brittain
 | Date: March 3, 2025
+| Last updated: 11/16/2026
 | Description:Library for communication with Unreal Engine Serial plugin
 | 
 | extra files: 
