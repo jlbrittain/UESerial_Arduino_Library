@@ -38,10 +38,6 @@ class UESerial {
 
       String readString();
         // postcondition: reads a string from the Serial Buffer, trims it, then returns it
-
-      long readLong();
-        // postcondition: reads a float value from the Serial Buffer, converts it to a long, then returns it
-
   private:
 
       //

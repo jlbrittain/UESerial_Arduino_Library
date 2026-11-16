@@ -118,11 +118,3 @@ String UESerial::readString() {
   read.trim(); // removes any whitespace characters at the end or begining of the string
   return read;
 }
-
-long UESerial::readLong() {
-  long read;
-  while(Serial.available() == 0) {}
-  float temp = Serial.parseFloat();
-  read = long(temp); // converts to long value
-  return temp;
-}
