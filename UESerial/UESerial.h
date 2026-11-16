@@ -16,7 +16,7 @@ class UESerial {
   public:
       void begin();
         // Begins the serial connection and also sends the ping-response protocol
-        // It sends "?" and is looking for "y" from the ue program to confirm a connection has been established
+        // It sends "1" and is looking for "2" from the ue program to confirm a connection has been established
 
       void sendMsg(char msg);
       void sendMsg(String msg);

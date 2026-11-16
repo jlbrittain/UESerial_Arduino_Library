@@ -20,12 +20,12 @@ void UESerial::begin() {
   while(!Serial){}//holds until Serial connection is connected
   
 
-  sendMsg(ping);//sends '?'
+  sendMsg(ping);//sends '1'
 
   //Serial.flush(); //holds till message sent
 
   while (response != confirmation){ 
-    //holds the code in a loop until 'y' is read in
+    //holds the code in a loop until '2' is read in
     response = Serial.read(); // reads in the next char in the buffer
   }
 
